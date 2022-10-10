@@ -31,7 +31,7 @@ const Home = (props) => {
     .then((response) => response.json())
     .then((data) => setGenres(data.genres))
   }, []);
-//commentar test
+
   return (
     <section className="Home-Section">
       <div className="Home-Title">
