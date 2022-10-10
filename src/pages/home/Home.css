@@ -14,3 +14,11 @@
   justify-content: center;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .Home-Title {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
