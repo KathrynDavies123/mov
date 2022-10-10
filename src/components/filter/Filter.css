@@ -16,7 +16,6 @@
 }
 
 /* ==Dropdown Active== */
-
 .dropdown {
   display:none;
 }
@@ -41,7 +40,6 @@
 }
 
 /* ==Filter Btn Active== */
-
 .Btn-active {
   padding-bottom:40px;
 }
@@ -64,7 +62,6 @@
 }
 
 /* ==Styling input; fonts & hover== */
-
 .option {
   display: none;
 }
@@ -90,7 +87,6 @@
 }
 
 /* ==MOBILE -VERSION=== */
-
 .Filter-Mobile-Container {
   position:relative;
 }
@@ -113,52 +109,69 @@
 }
 
 .form-container {
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   left:-140px;
   margin-bottom: -20px;
   margin-top:40px;
 }
 
+.Filter-Dropdown {
+  min-width: 335px;
 }
 
-@media (max-width:768px) {
+}
+
+
+@media (max-width:800px) {
   .form-container {
-    left:-210px;
+    left:-10px;
     margin-top:-20px;
+    max-width: 335px;
+
+  }
+
+  .Filter-Dropdown {
+    min-width: 335px;
   }
 }
+
 
 @media (max-width: 700px) {
   .form-container {
     top:30px;
-    left:-150px;
+    left:-30px;
+  }
+
+  .Filter-Dropdown {
+    max-width: 335px;
   }
 }
+
 @media (max-width: 640px) {
   .form-container {
     top:30px;
-    left:-80px;
+    left:-30px;
   }
 }
+
+
 
 @media (max-width: 570px) {
   .form-container {
     top:30px;
-    left:-10px;
+    left:-30px;
   }
 
   .Filter-Dropdown {
     min-width: 335px;
   }
 }
+
+
 
 @media (max-width: 520px) {
   .form-container {
     top:30px;
-    left:60px;
+    left:-25px;
   }
 
   .Filter-Dropdown {
@@ -166,10 +179,11 @@
   }
 
 }
+
+
 @media (max-width: 400px) {
   .form-container {
     top:30px;
-    left:60px;
+    left:-25px;
   }
-
 }
