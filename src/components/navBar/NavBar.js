@@ -1,6 +1,5 @@
 import '../../App.css';
-// import './NavBar.css';
-import './NavBar2.css';
+import './NavBar.css';
 import { Link } from "react-router-dom";
 
 
