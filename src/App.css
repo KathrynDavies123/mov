@@ -23,7 +23,7 @@
 
   --fs-h1-m: 30px;
   --fs-h2-m: 25px;
-  --fs-h3-m: 20px;
+  --fs-h3-m: 30px;
   --fs-h4-m: 15px;
 
   /* ==========FONT AND SIZES TEXT========== */
@@ -35,7 +35,7 @@
   --fs-p-medium: 20px;
   --fs-p-small: 16px;
 
-  --fs-p-large-m: 18px;
+  --fs-p-large-m: 20px;
   --fs-p-regular-m: 16x;
   --fs-p-medium-m: 12px;
   --fs-p-small-m: 10px;
@@ -44,6 +44,8 @@
 
   --fw-light: 300;
   --fw-thin: 100;
+
+  --letterspacing: 0.1rem;
 }
 /* ======================== */
 /* =======END ROOT========== */
@@ -67,14 +69,17 @@ h1 {
   font-size: var(--fs-h1);
 }
 h2 {
+  letter-spacing: var(--letterspacing);
   font-family: var(--ff-title);
   font-size: var(--fs-h2);
 }
 h3 {
+  letter-spacing: var(--letterspacing);
   font-family: var(--ff-title);
   font-size: var(--fs-h3);
 }
 h4 {
+  letter-spacing: var(--letterspacing);
   font-family: var(--ff-title);
   font-size: var(--fs-h4);
 }
@@ -116,18 +121,22 @@ p {
 
 @media (max-width: 360px) {
   h1 {
+    letter-spacing: var(--letterspacing);
     font-family: var(--ff-title);
     font-size: var(--fs-h1-m);
   }
   h2 {
+    letter-spacing: var(--letterspacing);
     font-family: var(--ff-title);
     font-size: var(--fs-h2-m);
   }
   h3 {
+    letter-spacing: var(--letterspacing);
     font-family: var(--ff-title);
     font-size: var(--fs-h3-m);
   }
   h4 {
+    letter-spacing: var(--letterspacing);
     font-family: var(--ff-title);
     font-size: var(--fs-h4-m);
   }
@@ -150,7 +159,7 @@ p {
 
   .Movie-Rating {
     font-family: var(--ff-text);
-    font-size: var(--fs-p-small-m);
+    font-size: var(--fs-p-small);
   }
 
   .Gengre-Item-Container {
