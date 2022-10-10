@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400&display=swap");
+
+/* ======================== */
+/* =======I AM ROOT======== */
+/* ======================== */
+
+:root {
+  /* ==========COLORS========== */
+
+  --font-color: rgba(255, 255, 255, 1);
+  --bg-color-primary: #24323f;
+  --bg-color-secondary: rgba(26, 38, 52, 1);
+  --akzent-color: rgba(33, 225, 140, 1);
+
+  /* ==========FONTS AND SIZES HEADLINES========== */
+
+  --ff-title: "Anton", sans-serif;
+
+  --fs-h1: 50px;
+  --fs-h2: 45px;
+  --fs-h3: 30px;
+  --fs-h4: 18px;
+
+  --fs-h1-m: 30px;
+  --fs-h2-m: 25px;
+  --fs-h3-m: 20px;
+  --fs-h4-m: 15px;
+
+  /* ==========FONT AND SIZES TEXT========== */
+
+  --ff-text: "Roboto", sans-serif;
+
+  --fs-p-large: 30px;
+  --fs-p-regular: 25px;
+  --fs-p-medium: 20px;
+  --fs-p-small: 16px;
+
+  --fs-p-large-m: 18px;
+  --fs-p-regular-m: 16x;
+  --fs-p-medium-m: 12px;
+  --fs-p-small-m: 10px;
+
+  /* ==========FONT-WEIGHTS========== */
+
+  --fw-light: 300;
+  --fw-thin: 100;
+}
+/* ======================== */
+/* =======END ROOT========== */
+/* ======================== */
+
+/* ==========APP GENERALS========== */
+
+.App {
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color-primary);
+}
+
+h1 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-h3);
+}
+h4 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-h4);
+}
+
+p {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-large);
+}
+
+/* ==========COMPONENTS TEXTS========== */
+
+.NavBar form,
+.Filter {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-medium);
+}
+
+.Movie-Details {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-small);
+  font-weight: var(--fw-thin);
+}
+
+.Movie-Rating {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-small);
+}
+
+.Gengres-Item-Container {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-large);
+}
+
+.FooterBar p {
+  font-family: var(--ff-text);
+  font-size: var(--fs-p-regular);
+  font-weight: var(--fw-light);
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-h1-m);
+  }
+  h2 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-h2-m);
+  }
+  h3 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-h3-m);
+  }
+  h4 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-h4-m);
+  }
+
+  p {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-large-m);
+  }
+  .NavBar form,
+  .Filter {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-medium-m);
+  }
+
+  .Movie-Details {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-small-m);
+    font-weight: var(--fw-thin);
+  }
+
+  .Movie-Rating {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-small-m);
+  }
+
+  .Gengre-Item-Container {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-large-m);
+  }
+
+  .FooterBar p {
+    font-family: var(--ff-text);
+    font-size: var(--fs-p-regular-m);
+    font-weight: var(--fw-light);
+  }
+}

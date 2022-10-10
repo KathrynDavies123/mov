@@ -1,0 +1,16 @@
+.Home-Section {
+  background: var(--bg-color-primary);
+  padding: 100px 95px;
+}
+
+.Home-Title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
