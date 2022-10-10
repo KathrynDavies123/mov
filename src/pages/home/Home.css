@@ -21,4 +21,8 @@
     flex-direction: column;
   }
 
+  .Home-Container {
+    margin-top:70px;
+  }
+
 }

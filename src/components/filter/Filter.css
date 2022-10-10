@@ -91,19 +91,38 @@
   margin-top:17px;
 }
 
+.Filter-Mobile-Container {
+  position:relative;
+  /* display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.form-container {
+  position:absolute;
+  z-index:9999;
+  right:50px;
+  top:40px;
+}
+
+@media (max-width: 800px) {
+
+  .Filter-Select-Group {
+    margin-bottom: -20px;
+}
+
+.Filter-Mobile-Container {
+  align-items: flex-start;
+}
+
 .form-container {
   display:flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-
-@media (max-width: 768px) {
-
-  .Filter-Select-Group {
-    /* display: flex; */
-    margin-bottom: 10px;
+  top:-20px;
+  left:-140px;
 }
 
 }
