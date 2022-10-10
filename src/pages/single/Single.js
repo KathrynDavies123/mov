@@ -40,7 +40,7 @@ const Single = () => {
                      <div className="Single-Overview-Container Single-Flex-Container">
                          <h3>Overview</h3>
                          {movie.overview &&<p className="Single-Text-Overview">
-                        {isReadMore ? movie.overview.slice(0, 150) : movie.overview}
+                        {isReadMore ? movie.overview.slice(0, 100) : movie.overview}
                         <button onClick={toggleReadMore} className="read-or-hide">
                             {isReadMore ? "...READ MORE" : "...SHOW LESS"}
                         </button>

@@ -17,7 +17,8 @@ const Filter = ({ setSort, sortBy}) => {
   let toggleClassCheck = show ? ' active' : 'in-active';
 
   return (
-      <div className="form-container">
+    <div className="Filter-Mobile-Container">
+            <div className="form-container">
           <div className="Filter-Select-Group">
               <button 
               onClick={handleClick} 
@@ -105,6 +106,8 @@ const Filter = ({ setSort, sortBy}) => {
               </div>
           </div>
       </div>
+    </div>
+
     );
 
 

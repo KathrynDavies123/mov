@@ -6,7 +6,7 @@
 
 .Single-Img-Container img {
     max-width:557px;
-    max-height:836px;
+    min-height:836px;
     margin-top:66px;
     margin-right:88px;
 }
