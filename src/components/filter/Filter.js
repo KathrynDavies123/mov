@@ -18,7 +18,7 @@ const Filter = ({ setSort, sortBy}) => {
 
   return (
     <div className="Filter-Mobile-Container">
-            <div className="form-container">
+        <div className="form-container">
           <div className="Filter-Select-Group">
               <button 
               onClick={handleClick} 

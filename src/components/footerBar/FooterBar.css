@@ -48,3 +48,9 @@
         width: 2rem;
     }
 }
+
+@media (max-width: 600px) {
+    .FooterBar-p-Container {
+        padding-right: 1rem;
+    }
+}

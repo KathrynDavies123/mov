@@ -2,6 +2,7 @@
     display:flex;
     flex-direction:row;
     margin:66px 95px 121px 95px;
+    width:1440px;
   }
 
 .Single-Img-Container img {
@@ -13,7 +14,9 @@
   
 .Single-Detail-Container {
     display:flex;
-    margin-top:167px;
+    margin-top:175px;
+    min-height:836px;
+
 }
 
 .Single-Flex-Container {
@@ -32,6 +35,10 @@
 
 .Single-Txt-Container p {
     max-width:394px;
+}
+
+.Single-Trailer-Container {
+    margin-top:58px;
 }
 
 .read-or-hide {
@@ -59,8 +66,9 @@
       flex-direction: column;
     }
 
-    /* .Single-Txt-Container {
-        margin:10px 20px;
-      } */
+      .Single-Detail-Container {
+        margin-top:75px;
+    
+    }
 
   }
