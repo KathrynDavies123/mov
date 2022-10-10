@@ -121,3 +121,13 @@ form {
     width: 13rem;
   }
 }
+
+@media (max-width: 600px) {
+  .NavBar-Container {
+    flex-direction: column;
+  }
+
+  .NavBar-h1-Container {
+    margin-left: -6rem;
+  }
+}
