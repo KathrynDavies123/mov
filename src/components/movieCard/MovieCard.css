@@ -47,3 +47,36 @@ padding:0;
 margin:0;
 box-sizing: border-box;
 }
+
+@media (max-width:927px) {
+  .Movie-Card {
+    max-width:300px;
+    margin:0 50px;
+  }
+
+  .Movie-Title {
+    font-size:22px;
+    padding-top:8px;
+  }
+
+  .Movie-Details {
+    font-size: 22px;
+    padding-top:4px;
+  }
+}
+
+@media (max-width: 776px) {
+  .Movie-Card {
+    width:400px;
+  }
+
+  .Movie-Title {
+    font-size:32px;
+    padding-top:12px;
+  }
+
+  .Movie-Details {
+    font-size: 24px;
+    padding-top:7px;
+  }
+}

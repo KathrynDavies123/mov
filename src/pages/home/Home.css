@@ -15,10 +15,13 @@
   gap: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .Home-Title {
     display: flex;
     flex-direction: column;
   }
-
+  .Home-Container {
+    margin-top:20px;
+    gap:50px;
+  }
 }
