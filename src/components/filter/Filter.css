@@ -1,15 +1,10 @@
 .Filter-Dropdown {
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
   box-sizing: border-box;
   width: 100%;
   max-width: 335px;
   min-height:250px;
   padding: 17px 50px;
   margin-top:-50px;
-  margin-bottom:46px;
-
   background-color:var(--bg-color-secondary);
   border:none;
   border-radius:27px ;
@@ -18,10 +13,7 @@
 /* ==Dropdown Active== */
 .dropdown {
   display:none;
-}
-
-.Filter-Select-Group {
-  display:flex;
+  background-color:red;
 }
 
 .Filter-Button {
@@ -49,7 +41,7 @@
   border: solid var(--akzent-color);
   border-width: 0 4px 4px 0;
   padding: 10px;
-  transform: rotate(225deg);
+  transform: rotate(-135deg);
   margin-top:25px;
   transition: transform 0.5s ease-in-out 25ms;
 }
@@ -70,7 +62,7 @@
   display: block;
   color:var(--font-color);
   font-size:var(--fs-h3-m);
-  font-family:"Roboto";
+  font-family:var(--ff-text);
   cursor: pointer;
 }
 
@@ -94,96 +86,29 @@
 .form-container {
   position:absolute;
   z-index:9999;
-  right:50px;
-  top:40px;
+  right:40%;
+  top:30%;
 }
+
 
 @media (max-width: 920px) {
 
 .Filter-Select-Group {
-    margin-top:-40px;
-}
-
-.Filter-Mobile-Container  {
-  align-items: flex-start;
+    margin-top:-60px;
 }
 
 .form-container {
-  left:-140px;
-  margin-bottom: -20px;
   margin-top:40px;
 }
-
-.Filter-Dropdown {
-  min-width: 335px;
 }
 
-}
-
-
-@media (max-width:800px) {
-  .form-container {
-    left:-10px;
-    margin-top:-20px;
-    max-width: 335px;
-
-  }
-
+@media (max-width:768px) {
   .Filter-Dropdown {
-    min-width: 335px;
+    margin-left:1.25rem;
   }
+
+  .Filter-Select-Group {
+    left:2rem;
+}
 }
 
-
-@media (max-width: 700px) {
-  .form-container {
-    top:30px;
-    left:-30px;
-  }
-
-  .Filter-Dropdown {
-    max-width: 335px;
-  }
-}
-
-@media (max-width: 640px) {
-  .form-container {
-    top:30px;
-    left:-30px;
-  }
-}
-
-
-
-@media (max-width: 570px) {
-  .form-container {
-    top:30px;
-    left:-30px;
-  }
-
-  .Filter-Dropdown {
-    min-width: 335px;
-  }
-}
-
-
-
-@media (max-width: 520px) {
-  .form-container {
-    top:30px;
-    left:-25px;
-  }
-
-  .Filter-Dropdown {
-    min-width: 335px;
-  }
-
-}
-
-
-@media (max-width: 400px) {
-  .form-container {
-    top:30px;
-    left:-25px;
-  }
-}
