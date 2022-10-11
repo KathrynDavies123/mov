@@ -50,7 +50,7 @@ box-sizing: border-box;
 
 @media (max-width:927px) {
   .Movie-Card {
-    max-width:300px;
+    max-width:350px;
     margin:0 50px;
   }
 
@@ -65,7 +65,7 @@ box-sizing: border-box;
   }
 }
 
-@media (max-width: 776px) {
+@media (max-width: 872px) {
   .Movie-Card {
     width:400px;
   }

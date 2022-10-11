@@ -15,7 +15,17 @@
   gap: 30px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 920px) {
+=======
+@media (max-width:1440px) {
+  .Home-Section {
+    padding-top:0;
+  }
+}
+
+@media (max-width: 800px) {
+>>>>>>> 4607c807215d736ea2ab7499d32bd2c3d934d541
   .Home-Title {
     display: flex;
     flex-direction: column;
@@ -25,4 +35,22 @@
     margin-top:70px;
   }
 
+}
+
+@media (max-width:640px) {
+  .Home-Section {
+    padding:0;
+  }
+
+  .Home-Title {
+    padding:0 95px;
+  }
+}
+
+@media (max-width:491px) {
+
+  .Home-Title {
+    padding:0;
+    text-align: center;
+  }
 }
