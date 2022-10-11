@@ -15,6 +15,12 @@
   gap: 30px;
 }
 
+@media (max-width:1440px) {
+  .Home-Section {
+    padding-top:0;
+  }
+}
+
 @media (max-width: 800px) {
   .Home-Title {
     display: flex;
@@ -25,4 +31,22 @@
     margin-top:70px;
   }
 
+}
+
+@media (max-width:640px) {
+  .Home-Section {
+    padding:0;
+  }
+
+  .Home-Title {
+    padding:0 95px;
+  }
+}
+
+@media (max-width:491px) {
+
+  .Home-Title {
+    padding:0;
+    text-align: center;
+  }
 }
