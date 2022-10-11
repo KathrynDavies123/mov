@@ -15,7 +15,6 @@
 /* ==Dropdown Active== */
 .dropdown {
   display:none;
-  background-color:red;
 }
 
 /* ==Styling Dropdown BTN== */
@@ -94,9 +93,8 @@
 }
 
 @media (max-width: 920px) {
-
 .Filter-Select-Group {
-    margin-top:-60px;
+    margin-top:-40px;
 }
 
 .form-container {
@@ -109,8 +107,10 @@
     margin-left:1.25rem;
   }
 
-  .Filter-Select-Group {
-    left:2rem;
-}
+  .Filter-Mobile-Container {
+    margin-left:50%;
+    margin-bottom:2rem;
+  }
+
 }
 
