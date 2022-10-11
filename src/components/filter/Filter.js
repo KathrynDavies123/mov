@@ -10,7 +10,7 @@ const Filter = ({ setSort, sortBy}) => {
   const handleClick = event => {
     event.preventDefault();
     setShow(show => !show); //close and open options
-    setRadio(event.target.value) //display wich genres is active
+    setRadio(event.target.value) //display which genres is active
     setSort(Number(event.target.id)); //actual filter function by ID
   }
 
@@ -109,31 +109,6 @@ const Filter = ({ setSort, sortBy}) => {
     </div>
 
     );
-
-
-
-  // const onchange = (e) => {
-  //   e.preventDefault();
-  //   setSort(Number(e.target.value));
-  // };
-
-  
-  // return (
-  //   <div className="Filter-Form-Container">
-  //     <form>
-  //       <div className="Filter-Container">
-  //         <select className="Filter-Dropdown" onChange={onchange}>
-  //           <option value="0">Genre</option>
-  //           <option value="878">SciFic</option>
-  //           <option value="28">Action</option>
-  //           <option value="35">Comedy</option>
-  //           <option value="53">Thriller</option>
-  //         </select>
-  //     </div>
-
-  //     </form>
-  //   </div>
-  // );
 };
 
 export default Filter;

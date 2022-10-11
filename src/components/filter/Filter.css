@@ -1,3 +1,5 @@
+/* ==Styling Dropdown== */
+
 .Filter-Dropdown {
   box-sizing: border-box;
   width: 100%;
@@ -15,6 +17,8 @@
   display:none;
   background-color:red;
 }
+
+/* ==Styling Dropdown BTN== */
 
 .Filter-Button {
   display: flex;
@@ -45,7 +49,6 @@
   margin-top:25px;
   transition: transform 0.5s ease-in-out 25ms;
 }
-
 
 .Arrow-active {
   transform: rotate(45deg);
@@ -89,7 +92,6 @@
   right:40%;
   top:30%;
 }
-
 
 @media (max-width: 920px) {
 

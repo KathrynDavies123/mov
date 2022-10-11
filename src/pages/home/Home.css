@@ -15,9 +15,6 @@
   gap: 30px;
 }
 
-<<<<<<< HEAD
-@media (max-width: 920px) {
-=======
 @media (max-width:1440px) {
   .Home-Section {
     padding-top:0;
@@ -25,7 +22,6 @@
 }
 
 @media (max-width: 800px) {
->>>>>>> 4607c807215d736ea2ab7499d32bd2c3d934d541
   .Home-Title {
     display: flex;
     flex-direction: column;
