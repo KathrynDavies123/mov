@@ -2,6 +2,7 @@
   background-color: var(--bg-color-secondary);
   display: flex;
   align-items: center;
+  width: 100vw;
 }
   
 .NavBar-h1-Container {
@@ -128,6 +129,19 @@ form {
   }
 
   .NavBar-h1-Container {
-    margin-left: -6rem;
+    margin-left: 1rem;
+  }
+
+  .NavBar-Form-Container #searchBar {
+    width: 3rem;
+  }
+
+  .NavBar-Form-Container #searchBar:hover {
+    width: 5rem;
+    transition: width 2s;
+  }
+
+  .NavBar-Form-Container #searchBar:focus {
+    width: 5rem;
   }
 }

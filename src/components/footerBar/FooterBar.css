@@ -53,4 +53,18 @@
     .FooterBar-p-Container {
         padding-right: 1rem;
     }
+
+    .FooterBar-Container {
+        flex-direction: column;
+    }
+
+    .Footerbar-h1-Container {
+        margin-left: 1rem;
+      }
 }
+
+/* @media (max-width: 350px) {
+    .FooterBar-Container {
+        flex-direction: column;
+    }
+} */
