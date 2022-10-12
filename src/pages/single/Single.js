@@ -30,7 +30,7 @@ const Single = () => {
                          <h3>Release Date</h3>
                          <p>{movie.release_date}</p>
                      </div>
-                     <div className="Single-Genres-Container Single-Flex-Container">
+                     <div className="Single-Gengres-Container Single-Flex-Container">
                          <h3>Genres</h3>
                          {movie.genres &&  <div className="Gengres-Item-Container">{movie.genres.map((item) => 
                             item.name).join(", ")}
@@ -40,7 +40,7 @@ const Single = () => {
                      <div className="Single-Overview-Container Single-Flex-Container">
                          <h3>Overview</h3>
                          {movie.overview &&<p className="Single-Text-Overview">
-                        {isReadMore ? movie.overview.slice(0, 100) : movie.overview}
+                        {isReadMore ? movie.overview.slice(0, 150) : movie.overview}
                         <button onClick={toggleReadMore} className="read-or-hide">
                             {isReadMore ? "...READ MORE" : "...SHOW LESS"}
                         </button>
