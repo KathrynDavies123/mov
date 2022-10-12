@@ -85,6 +85,6 @@
 
   @media screen and (max-width: 600px) {
     .Single-Img-Container img {
-        min-height:339px;
+        max-height:339px;
       }
   }
