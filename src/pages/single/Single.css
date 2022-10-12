@@ -73,9 +73,13 @@
         font-size:var(--fs-h3);
     }
 
+    .Single-Img-Container {
+        margin-top:-20px;
+    }
+
 
       .Single-Detail-Container {
-        margin-top:50px;
+        margin-top:30px;
     }
 
     .Single-Flex-Container {
