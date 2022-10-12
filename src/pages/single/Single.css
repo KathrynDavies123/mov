@@ -2,8 +2,7 @@
     display:flex;
     flex-direction:row;
     margin:66px 95px 121px 95px;
-    min-width:1440px;
-    min-height:836px;
+    width: 1440px;
   }
 
 .Single-Img-Container img {
@@ -62,15 +61,20 @@
 @media (max-width: 800px) {
     .Single-Container, .Single-Flex-Container {
       flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .Single-Container {
+        margin-left:50px;
+
+    }
+
+    .Single-Img-Container h2 {
+        font-size:var(--fs-h3);
     }
 
       .Single-Detail-Container {
         margin-top:50px;
-    }
-
-    .Single-Img-Container img {
-        max-width:100%;
-        max-height:436px;
     }
 
     .Single-Flex-Container {

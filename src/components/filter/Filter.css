@@ -100,17 +100,22 @@
 .form-container {
   margin-top:40px;
 }
+
+.Filter-Mobile-Container {
+  margin-left:60%;
+  margin-bottom:2rem;
+}
 }
 
 @media (max-width:768px) {
   .Filter-Dropdown {
     margin-left:1.25rem;
   }
-
-  .Filter-Mobile-Container {
-    margin-left:50%;
-    margin-bottom:2rem;
-  }
-
 }
 
+@media (max-width:650px) {
+  .Filter-Mobile-Container {
+    margin-left:90%;
+    margin-bottom:2rem;
+  }
+}
