@@ -1,6 +1,5 @@
 import "../../App.css";
 import "./FooterBar.css";
-
 import { Link } from "react-router-dom";
 
 // IMAGES IMPORT
