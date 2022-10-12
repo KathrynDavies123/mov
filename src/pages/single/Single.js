@@ -40,7 +40,7 @@ const Single = () => {
                      <div className="Single-Overview-Container Single-Flex-Container">
                          <h3>Overview</h3>
                          {movie.overview &&<p className="Single-Text-Overview">
-                        {isReadMore ? movie.overview.slice(0, 120) : movie.overview}
+                        {isReadMore ? movie.overview.slice(0, 100) : movie.overview}
                         <button onClick={toggleReadMore} className="read-or-hide">
                             {isReadMore ? "...READ MORE" : "...SHOW LESS"}
                         </button>
@@ -53,7 +53,7 @@ const Single = () => {
                      </div>
                      <div className="Single-Trailer-Container">
                          <h3>Watch Trailer</h3>
-                         <div>
+                         <div className="Single-Trailer-Img">
                          <img src={`https://image.tmdb.org/t/p/w300${movie.backdrop_path}`} alt="movie poster"/>
                          </div>
                      </div>
