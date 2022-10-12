@@ -73,6 +73,7 @@
         font-size:var(--fs-h3);
     }
 
+
       .Single-Detail-Container {
         margin-top:50px;
     }
@@ -80,5 +81,10 @@
     .Single-Flex-Container {
         gap:0.1rem;
     }
+  }
 
+  @media screen and (max-width: 600px) {
+    .Single-Img-Container img {
+        min-height:339px;
+      }
   }
